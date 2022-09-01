@@ -79,7 +79,7 @@ fetch("https://freecoursesfetch.herokuapp.com/courses/course2")
 
 ## Status Codes
 
-API-POTD returns the following status codes in its API:
+FreecoursesAPI returns the following status codes in its API:
 
 | Status Code | Description |
 | :--- | :--- |
