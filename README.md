@@ -20,20 +20,20 @@ Though with differenct route points requests you can specify what data you want 
 
 This is the main API endpoints, obviously with the http: `https://freecoursesfetch.herokuapp.com/`
 ```http
-GET https://freecoursesfetch.herokuapp.com/
+GET //freecoursesfetch.herokuapp.com/
 ```
 Then you can go on and add your specific routes.
 Here are all the endpoints you can fetch the API from:
 ```http
-GET https://freecoursesfetch.herokuapp.com/courses
+GET //freecoursesfetch.herokuapp.com/courses
 ```
 - fetches `Courses` and returs you a JSON, This JSON contains a object full of other courses for a total of 10 courses.
 ```http
-GET https://freecoursesfetch.herokuapp.com/courses/course1
+GET //freecoursesfetch.herokuapp.com/courses/course1
 ```
 - fetches only the `Course1 JSON`, which contains details like `Course Image`,`Course Price`,`Sale Price`,`Course Name`,`Course Url` and some more details like 'id' etc.
 ```http
-GET https://freecoursesfetch.herokuapp.com/courses/course2
+GET //freecoursesfetch.herokuapp.com/courses/course2
 ```
 - fetches only the `Course2 JSON` contains same details as `course 1`.
 
