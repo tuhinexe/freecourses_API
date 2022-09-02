@@ -38,6 +38,13 @@ GET //freecoursesfetch.herokuapp.com/courses/course2
 - fetches only the `Course2 JSON` contains same details as `course 1`.
 
 - Like above routes you can access total 10 routes upto `https://freecoursesfetch.herokuapp.com/courses/course9`. There you can get separate JSON for every course.
+## Previews:
+- Home route preview
+![image](https://user-images.githubusercontent.com/85868593/188216345-a9fef90e-b698-4c22-b908-07621238fe78.png)
+- `/courses` route preview
+![image](https://user-images.githubusercontent.com/85868593/188216490-e965f1f9-54a7-4c3e-9df3-a1ea2253335c.png)
+- Separate courses route previw i.e. `/course/course1`
+![image](https://user-images.githubusercontent.com/85868593/188216655-ae392bc6-f264-4aca-b5d3-46154541b81d.png)
 
 ## Responses
 
