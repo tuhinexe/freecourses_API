@@ -18,7 +18,7 @@ The API is not an RESTful API, there are no CURD operation available, it just ta
 Though with differenct route points requests you can specify what data you want the API to fetch.
 
 
-This is the main API endpoints, obviously with the http: `https://freecoursesfetch.herokuapp.com/`
+This is the main API endpoints: `https://freecoursesfetch.herokuapp.com/`
 ```http
 GET //freecoursesfetch.herokuapp.com/
 ```
