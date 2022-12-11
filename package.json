@@ -4,7 +4,7 @@
   "description": "This API can fetch 10 free courses everyday",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "author": "Tuhin",
   "license": "ISC",
