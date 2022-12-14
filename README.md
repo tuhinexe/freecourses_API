@@ -66,7 +66,7 @@ the `response` json will return so many things:
 
 if you have done `console.log(result)` it will be in console though.
 ```javascript
-fetch("https://ffreecoursefetch.onrender.com/courses")
+fetch("https://freecoursefetch.onrender.com/courses")
   .then(response => data.json())
   .then(result => console.log(result))
   .catch(error => console.log('error', error));
