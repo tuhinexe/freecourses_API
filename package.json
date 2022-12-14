@@ -4,7 +4,7 @@
   "description": "This API can fetch 10 free courses everyday",
   "main": "app.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node src/index.js"
   },
   "author": "Tuhin",
   "license": "ISC",
