@@ -18,26 +18,26 @@ The API is not an RESTful API, there are no CURD operation available, it just ta
 Though with differenct route points requests you can specify what data you want the API to fetch.
 
 
-This is the main API endpoints: `https://freecoursesfetch.herokuapp.com/`
+This is the main API endpoints: `https://freecoursefetch.onrender.com`
 ```http
-GET //freecoursesfetch.herokuapp.com/
+GET //freecoursefetch.onrender.com
 ```
 Then you can go on and add your specific routes.
 Here are all the endpoints you can fetch the API from:
 ```http
-GET //freecoursesfetch.herokuapp.com/courses
+GET //freecoursefetch.onrender.com/courses
 ```
 - fetches `Courses` and returs you a JSON, This JSON contains a object full of other courses for a total of 10 courses.
 ```http
-GET //freecoursesfetch.herokuapp.com/courses/course1
+GET //freecoursefetch.onrender.com/courses/course1
 ```
 - fetches only the `Course1 JSON`, which contains details like `Course Image`,`Course Price`,`Sale Price`,`Course Name`,`Course Url` and some more details like 'id' etc.
 ```http
-GET //freecoursesfetch.herokuapp.com/courses/course2
+GET //freecoursefetch.onrender.com/courses/course2
 ```
 - fetches only the `Course2 JSON` contains same details as `course 1`.
 
-- Like above routes you can access total 10 routes upto `https://freecoursesfetch.herokuapp.com/courses/course9`. There you can get separate JSON for every course.
+- Like above routes you can access total 10 routes upto `https://freecoursefetch.onrender.com/courses/course9`. There you can get separate JSON for every course.
 ## Previews:
 - Home route preview
 
@@ -56,7 +56,7 @@ GET //freecoursesfetch.herokuapp.com/courses/course2
 Here is `JavaSript` request format
 
 ```javascript
-fetch("https://freecoursesfetch.herokuapp.com/")
+fetch("https://freecoursefetch.onrender.com/")
   .then(response => data.json())
   .then(result => console.log(result))
   .catch(error => console.log('error', error));
@@ -66,14 +66,14 @@ the `response` json will return so many things:
 
 if you have done `console.log(result)` it will be in console though.
 ```javascript
-fetch("https://freecoursesfetch.herokuapp.com/courses")
+fetch("https://ffreecoursefetch.onrender.com/courses")
   .then(response => data.json())
   .then(result => console.log(result))
   .catch(error => console.log('error', error));
 ```
 
 ```javascript
-fetch("https://freecoursesfetch.herokuapp.com/courses/course1")
+fetch("https://freecoursefetch.onrender.com/courses/course1")
   .then(response => data.json())
   .then(result => console.log(result))
   .catch(error => console.log('error', error));
@@ -81,7 +81,7 @@ fetch("https://freecoursesfetch.herokuapp.com/courses/course1")
 
 
 ```javascript
-fetch("https://freecoursesfetch.herokuapp.com/courses/course2")
+fetch("https://freecoursefetch.onrender.com/courses/course2")
   .then(response => data.json())
   .then(result => console.log(result))
   .catch(error => console.log('error', error));
